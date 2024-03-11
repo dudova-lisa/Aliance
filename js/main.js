@@ -21,9 +21,9 @@ const openMenu = (event) => {
 };
 const closeMenu = (event) => {
   // функция закрывания меню
-  menu.classList.add("is-open"); // убирает класс is-open
+  menu.classList.remove("is-open"); // убирает класс is-open
   mMenuToggle.classList.remove("close-menu");
-  document.body.style.overflow = "hidden"; // возвращает прокрутку сайта под меню
+  document.body.style.overflow = ""; // возвращает прокрутку сайта под меню
   lightModeOff();
 };
 
