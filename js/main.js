@@ -7,7 +7,7 @@ const menu = document.querySelector(".mobile-menu");
 const lightModeOn = (event) => {
   navbar.classList.add("navbar-light");
   logo.style.display = "block";
-  logoLight.style.display = "nonefix: logo swithe";
+  logoLight.style.display = "none";
 };
 const lightModeOff = (event) => {
   navbar.classList.remove("navbar-light");
@@ -39,7 +39,6 @@ mMenuToggle.addEventListener("click", (event) => {
 });
 const swiper = new Swiper(".swiper", {
   speed: 400,
-  autoHeight: true,
   slidesPerView: 1,
   navigation: {
     nextEl: ".slider-button-next",
