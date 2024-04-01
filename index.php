@@ -10,7 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <title>Aliance production</title>
+    <title> Aliance production</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -614,7 +614,7 @@
       <div class="footer-wrapper">
           <div class="footer-legel">
           <p class="footer-copyright">
-            &copy; 2022 «Aliance Production». Все права защищены.
+            &copy; <?php echo date('d.m.y')?> «Aliance Production». Все права защищены.
           </p>
           <a href="#" class="footer-policy">Политики конфиденциальности</a>
         </div>
