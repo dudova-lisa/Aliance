@@ -104,7 +104,7 @@ body {
   align-items: center;
 }
 .header-nav-item:not(:last-child) {
-  margin-right: 4%;
+  margin-right: 5%;
 }
 .header-nav-link {
   display: flex;
@@ -241,8 +241,9 @@ body {
   font-size: 3.75rem;
   line-height: 120%;
   color: #292d33;
-  margin-top: 1.4rem;
-  word-spacing: 0.5rem;
+  margin-top: 1.6rem;
+  margin-bottom: 2.4rem;
+  word-spacing: 0.2rem;
 }
 .steps {
   display: flex;
@@ -377,7 +378,8 @@ body {
 .trademark-cards {
   display: flex;
   flex-direction: row;
-  margin-bottom: 13rem;
+  margin-top: 3.3rem;
+  margin-bottom: 12.9rem;
 }
 .trademark-card {
   text-decoration: none;
@@ -437,6 +439,7 @@ body {
   width: 44%;
   top: 0;
   height: 100%;
+  margin-top: -3rem;
   object-fit: cover;
 }
 .founder-conteent-wrapper {
@@ -453,6 +456,7 @@ body {
 }
 .clients-wrapper {
   display: flex;
+  margin-bottom: 9.1rem;
 }
 .clients-content {
   flex-basis: 51%;
@@ -471,9 +475,6 @@ body {
   line-height: 160%;
   color: #292d33;
   margin-bottom: 1.2rem;
-}
-.clients-list-icon {
-  margin-right: 1.25rem;
 }
 .clients-logo-list {
   flex-shrink: 10;
@@ -509,6 +510,7 @@ body {
   color: #fff;
   justify-content: flex-end;
   padding: 3.125rem;
+  margin-top: 0.9rem;
 }
 .blog-card::before {
   content: "";
@@ -548,7 +550,8 @@ body {
 .blog-slider-footer {
   display: flex;
   align-items: center;
-  margin-top: 1.875rem;
+  margin-top: 2rem;
+  margin-bottom: 5.5rem;
   justify-content: space-between;
 }
 .bg-grey {
@@ -556,9 +559,9 @@ body {
 }
 .section-cta {
   position: relative;
-  padding-top: 6.25rem;
-  margin-top: 9.375rem;
-  padding-bottom: 6.25rem;
+  padding-top: 8rem;
+  margin-top: 8.5rem;
+  padding-bottom: 6.5rem;
 }
 .cta-image {
   position: absolute;
@@ -574,6 +577,13 @@ body {
 .cta-form {
   max-width: 52.5rem;
 }
+.cta-form-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .cta-form-text {
   font-style: normal;
   font-weight: 400;
@@ -587,6 +597,7 @@ body {
 .input-group-wrapper {
   display: flex;
   gap: 1.875rem;
+  width: 850px;
 }
 .input-group-vertical {
   display: flex;
@@ -634,10 +645,13 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   display: flex;
   align-items: center;
   gap: 1.875rem;
+  margin-top: 2.3rem;
 }
 .cta-form-button {
   flex-shrink: 0;
-  margin-top: 1.875rem;
+  width: 235px;
+  height: 65px;
+  font-size: .7875rem;
 }
 .notify {
   display: flex;
@@ -657,15 +671,16 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   margin: 0;
 }
 .footer-top {
-  padding-top: 3.125rem;
+  padding-top: 2.8rem;
   padding-bottom: 3.125rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .footer-logo {
-  width: 12.5rem;
-  height: 3.75rem;
+  width: 12.7rem;
+  height: 4rem;
+  margin-right: 5rem;
 }
 .footer-info {
   display: flex;
@@ -692,11 +707,14 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   text-decoration: none;
 }
 .footer-seporator {
+  margin-top: 0;
+  margin-bottom: 0;
   color: #ebebf0;
   background-color: #ebebf0;
 }
 .footer-bottom {
-  padding-top: 3.125rem;
+  margin-left: 15rem;
+  padding-top: 2.8rem;
   padding-bottom: 3.125rem;
 }
 .footer-menu-title {
@@ -714,7 +732,10 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
 }
 .footer-menu-column-2 {
   columns: 20rem auto;
-  min-width: 50rem;
+  min-width: 45rem;
+}
+.footer-menu-item {
+  margin-bottom: 1rem;
 }
 .footer-menu-link {
   text-decoration: none;
@@ -725,7 +746,7 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   margin-bottom: 0.4375rem;
   display: block;
 }
-.footer-mebu-link-bold {
+.footer-menu-link-bold {
   font-style: normal;
   font-weight: 600;
   font-size: 1rem;
@@ -737,7 +758,7 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   display: flex;
 }
 .footer-menu-wrapper:last-child {
-  margin-left: 5rem;
+  margin-left: 10.5rem;
 }
 .footer-wrapper {
   padding-top: 1.25rem;
@@ -930,7 +951,7 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding: 2.8rem 3.1rem;
+    padding: 2.5rem 2.8rem;
     border-right: 1px solid rgba(235, 235, 240, 0.2);
   }
   .navbar-light .mobile-menu-line {
@@ -1043,6 +1064,20 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   .clients-wrapper {
     flex-direction: column;
   }
+  .founder-photo {
+    position: relative;
+    width: 100%;
+    margin-bottom: 3.125rem;
+  }
+  .cta-image {
+  position: relative;
+  }
+  .cta-form {
+   max-width: 32rem; 
+  }
+  .footer-phone {
+    font-size: 1rem;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -1056,11 +1091,6 @@ input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   }
   .card {
     flex-basis: 100%;
-  }
-  .founder-photo {
-    position: relative;
-    width: 100%;
-    margin-bottom: 3.125rem;
   }
 }
 @media (max-width: 576px) {
