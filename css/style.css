@@ -597,7 +597,6 @@ body {
 .input-group-wrapper {
   display: flex;
   gap: 1.875rem;
-  width: 850px;
 }
 .input-group-vertical {
   display: flex;

@@ -12,6 +12,8 @@
                 class="input" 
                 name="username"
                 placeholder=" "
+                maxlength="100"
+                required>
                 >
                 <label class="input-group-label" for="user-name">Имя</label>
               </div>
@@ -22,6 +24,8 @@
                 name="userphone"
                 class="input" 
                 placeholder=" "
+                maxlength="30"
+                required>
                 >
                 <label class="input-group-label" for="user-phone">Номер телефона</label>
               </div>
@@ -163,7 +167,7 @@
     <div class="modal">
       <div class="modal-dialog">
         <h2 class="modal-title">Есть вопросы?</h2>
-        <a href="#" class="modal-close" data-toggle="modal">
+        <a action="handler.php" method="POST"  class="modal-close" data-toggle="modal">
          <svg class="close-icon" width="24" height="24">
           <use href="img/sprite.svg#close"></use>
         </svg> 
@@ -171,10 +175,12 @@
         <p class="modal-text">
           Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
         </p>
-          <form action="#" class="modal-form">
+          <form action="handler.php" method="POST"  class="modal-form">
              <div class="input-group-wrapper input-group-vertical">
               <div class="input-group modal-input-group">
-                <input id="modal-user-name" type="text" class="input modal-input" placeholder=" "
+                <input id="modal-user-name" type="text" class="input modal-input" 
+                name="username"
+                placeholder=" "
                 maxlength="100"
                 required>
                 
@@ -182,7 +188,9 @@
               </div>
               <!-- /.input-group -->
               <div class="input-group modal-input-group">
-                <input id="modal-user-phone" type="tel" class="input modal-input" placeholder=" "
+                <input id="modal-user-phone" type="tel" class="input modal-input"
+                name="userphone"
+                placeholder=" "
                 maxlength="30"
                 required>
                 <label class="input-group-label modal-input-label" for="modal-user-phone">Номер телефона</label>
