@@ -22,7 +22,7 @@
                 <input id="user-phone" 
                 type="tel" 
                 name="userphone"
-                class="input" 
+                class="input phone-mask" 
                 placeholder=" "
                 maxlength="30"
                 required>
@@ -164,10 +164,10 @@
       <!-- /.footer-wrapper -->
       </div>
     </footer>
-    <div class="modal">
+    <div class="modal" id="feedback-modal"> 
       <div class="modal-dialog">
         <h2 class="modal-title">Есть вопросы?</h2>
-        <a action="handler.php" method="POST"  class="modal-close" data-toggle="modal">
+        <a action="handler.php" method="POST"  class="modal-close" data-toggle="modal" data-target="#feedback-modal">
          <svg class="close-icon" width="24" height="24">
           <use href="img/sprite.svg#close"></use>
         </svg> 
@@ -190,6 +190,7 @@
               <div class="input-group modal-input-group">
                 <input id="modal-user-phone" type="tel" class="input modal-input"
                 name="userphone"
+                class="input phone-mask"
                 placeholder=" "
                 maxlength="30"
                 required>
@@ -211,7 +212,51 @@
           </form>
         </div>
     </div>
+    <div class="modal" id="alert-modal">
+      <div class="modal-dialog">
+        <img src="img/thanks_illu.jpg" alt="">
+        <h2 class="modal-title">Спасибо за заявку!</h2>
+        <a action="handler.php" method="POST"  class="modal-close" data-toggle="modal" data-target="#alert-modal">
+         <svg class="close-icon" width="24" height="24">
+          <use href="img/sprite.svg#close"></use>
+        </svg> 
+        </a>
+        <p class="modal-text">
+        Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможет даже в самых сложных случаях!
+        </p>
+             <div class="input-group-wrapper input-group-vertical">
+              <div class="input-group modal-input-group">
+                <input id="modal-user-name" type="text" class="input modal-input" 
+                name="username"
+                placeholder=" "
+                maxlength="100"
+                required>
+                
+                <label class="input-group-label modal-input-label" for="modal-user-name">Имя</label>
+              </div>
+              <!-- /.input-group -->
+              <div class="input-group modal-input-group">
+                <input id="modal-user-phone" type="tel" class="input modal-input"
+                name="userphone"
+                class="input phone-mask"
+                placeholder=" "
+                maxlength="30"
+                required>
+                <label class="input-group-label modal-input-label" for="modal-user-phone">Номер телефона</label>
+              </div>
+              <!-- /.input-group -->
+            </div>
+            <!-- /.input-group-wrapper -->
+            <div class="modal-form-footer">
+              <button type="submit" class="button modal-form-button">Вернуться на главную</button>
+              </div>
+            </div>
+            <!-- сta-form-footer -->
+          </form>
+        </div>
+    </div>
     <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/just-validate.production.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
