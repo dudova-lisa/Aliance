@@ -128,13 +128,13 @@
           <div class="footer-menu-wrapper">
             <ul class="footer-menu-list">
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link footer-menu-link-bold">О компании</a>
+                <a href="./about.php" class="footer-menu-link footer-menu-link-bold">О компании</a>
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link footer-menu-link-bold">Новости</a>
+                <a href="./news.php" class="footer-menu-link footer-menu-link-bold">Новости</a>
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link footer-menu-link-bold">Контакты</a>
+                <a href="./contacts.php" class="footer-menu-link footer-menu-link-bold">Контакты</a>
               </li>
             </ul> 
           </div>
@@ -150,7 +150,7 @@
           <p class="footer-copyright">
             &copy; <?php echo date('d.m.y')?> «Aliance Production». Все права защищены.
           </p>
-          <a href="#" class="footer-policy">Политики конфиденциальности</a>
+          <a href="./policy.php" class="footer-policy">Политики конфиденциальности</a>
         </div>
         <!-- footer-legal -->
         <div class="footer-author">
