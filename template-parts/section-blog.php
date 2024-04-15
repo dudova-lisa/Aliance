@@ -8,18 +8,30 @@
   <div class="swiper-wrapper">
     <!-- Slides -->
     <a href="#" class="swiper-slide blog-card">
-      <img src="img/blog-card.jpg" alt="" class="blog-card-image">
+    <picture class="blog-card-image"> 
+  <source type="image/webp" srcset="img/blog-card.webp"> 
+  <source type="image/jpeg" srcset="img/blog-card.jpg"> 
+  <img src="img/blog-card.jpg" alt="blog-card">
+  </picture>
       <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
       <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
     </a>
      <a href="#" class="swiper-slide blog-card">
-      <img src="img/blog-post.jpg" alt="" class="blog-card-image">
+     <picture class="blog-card-image"> 
+  <source type="image/webp" srcset="img/blog-post.webp"> 
+  <source type="image/jpeg" srcset="img/blog-post.jpg"> 
+  <img src="img/blog-post.jpg" alt="blog-post">
+  </picture>
       <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
       <p class="blog-card-text">Сложно сказать, почему жизнь прекрасна
 Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
     </a>
     <a href="#" class="swiper-slide blog-card">
-      <img src="img/blog-card.jpg" alt="" class="blog-card-image">
+    <picture class="blog-card-image"> 
+  <source type="image/webp" srcset="img/blog-card.webp"> 
+  <source type="image/jpeg" srcset="img/blog-card.jpg"> 
+  <img src="img/blog-card.jpg" alt="blog-card">
+  </picture>
       <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
       <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
     </a>
